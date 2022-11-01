@@ -1,0 +1,76 @@
+{
+    "manufacturer": "Pierre",
+    "keyboard_name": "macropad",
+    "maintainer": "Pierre",
+    "bootloader": "qmk-dfu",
+    "diode_direction": "COL2ROW",
+    "build": {
+        "lto": false
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true,
+        "rgblight": true
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
+    },
+    "encoder": {
+        "rotary": [{ "pin_a": "D0", "pin_b": "D1", "resolution": 4 }]
+    },
+    "ws2812": {
+        "pin": "B6",
+        "driver": "bitbang"
+    },
+    "rgblight": {
+        "led_count": 1,
+        "max_brightness": 185,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": false,
+            "snake": false,
+            "knight": false,
+            "christmas": false,
+            "static_gradient": false,
+            "rgb_test": false,
+            "alternating": false,
+            "twinkle": false
+        },
+        "brightness_steps": 8,
+        "saturation_steps": 8,
+        "driver": "ws2812",
+        "layers": {
+            "enabled": true
+        },
+        "sleep": true
+    },
+    "matrix_pins": {
+        "cols": ["F5", "F6", "F7", "B1", "B3", "B2"],
+        "rows": ["F4"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "QK_BOOT", "matrix": [0,0], "x": 0, "y": 0 },
+                { "label": "KC_MPLY", "matrix": [0,1], "x": 1, "y": 0 },
+                { "label": "QK_BOOT", "matrix": [0,2], "x": 2, "y": 0 },
+                { "label": "QK_BOOT", "matrix": [0,3], "x": 3, "y": 0 },
+                { "label": "QK_BOOT", "matrix": [0,4], "x": 4, "y": 0 },
+                { "label": "QK_BOOT", "matrix": [0,5], "x": 5, "y": 0 }
+            ]
+        }
+    }
+}

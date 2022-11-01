@@ -1,0 +1,124 @@
+{
+    "keyboard_name": "Dactyl Manuform",
+    "manufacturer": "handwired",
+    "url": "",
+    "maintainer": "pierre",
+    "width": 17,
+    "height": 8,
+    "usb": {
+        "vid": "0x444D",
+        "pid": "0x3538",
+        "device_version": "0.0.1"
+    },
+    "bootmagic": {
+        "matrix": [4, 6]
+    },
+    "features": {
+        "encoder": true,
+        "bootmagic": true
+    },
+    "dynamic_keymap": {
+        "layer_count": 3
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "D3", "pin_b": "D2", "resolution": 4 }
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "#", "x": 3.5, "y": 0 },
+                { "label": "*", "x": 15, "y": 0 },
+                { "label": "@", "x": 2.5, "y": 0.125 },
+                { "label": "(", "x": 16, "y": 0.125 },
+                { "label": "$", "x": 4.5, "y": 0.25 },
+                { "label": "%", "x": 5.5, "y": 0.25 },
+                { "label": "^", "x": 13, "y": 0.25 },
+                { "label": "&", "x": 14, "y": 0.25 },
+                { "label": "~", "x": 0.5, "y": 0.375 },
+                { "label": "!", "x": 1.5, "y": 0.375 },
+                { "label": ")", "x": 17, "y": 0.375 },
+                { "label": "_", "x": 18, "y": 0.375 },
+                { "label": "Enc1", "x": 6.5, "y": 0.5 },
+                { "label": "Enc2", "x": 12, "y": 0.5 },
+                { "label": "E", "x": 3.5, "y": 1 },
+                { "label": "I", "x": 15, "y": 1 },
+                { "label": "W", "x": 2.5, "y": 1.125 },
+                { "label": "O", "x": 16, "y": 1.125 },
+                { "label": "R", "x": 4.5, "y": 1.25 },
+                { "label": "T", "x": 5.5, "y": 1.25 },
+                { "label": "Y", "x": 13, "y": 1.25 },
+                { "label": "U", "x": 14, "y": 1.25 },
+                { "label": "\u2190", "x": 0.5, "y": 1.375 },
+                { "label": "Q", "x": 1.5, "y": 1.375 },
+                { "label": "P", "x": 17, "y": 1.375 },
+                { "label": "+", "x": 18, "y": 1.375 },
+                { "label": "[", "x": 6.5, "y": 1.5 },
+                { "label": "]", "x": 12, "y": 1.5 },
+                { "label": "D", "x": 3.5, "y": 2 },
+                { "label": "K", "x": 15, "y": 2 },
+                { "label": "S", "x": 2.5, "y": 2.125 },
+                { "label": "L", "x": 16, "y": 2.125 },
+                { "label": "F", "x": 4.5, "y": 2.25 },
+                { "label": "G", "x": 5.5, "y": 2.25 },
+                { "label": "H", "x": 13, "y": 2.25 },
+                { "label": "J", "x": 14, "y": 2.25 },
+                { "label": "\u21e7", "x": 0.5, "y": 2.375 },
+                { "label": "A", "x": 1.5, "y": 2.375 },
+                { "label": ":", "x": 17, "y": 2.375 },
+                { "label": "\"", "x": 18, "y": 2.375 },
+                {
+                    "label": "<img src='http://i.imgur.com/QtgaNKa.png' width='20'>",
+                    "x": 6.5,
+                    "y": 2.5
+                },
+                { "label": "\u232b", "x": 12, "y": 2.5 },
+                { "label": "C", "x": 3.5, "y": 3 },
+                { "label": "<", "x": 15, "y": 3 },
+                { "label": "X", "x": 2.5, "y": 3.125 },
+                { "label": ">", "x": 16, "y": 3.125 },
+                { "label": "V", "x": 4.5, "y": 3.25 },
+                { "label": "B", "x": 5.5, "y": 3.25 },
+                { "label": "N", "x": 13, "y": 3.25 },
+                { "label": "M", "x": 14, "y": 3.25 },
+                { "label": "Ctrl", "x": 0.5, "y": 3.375 },
+                { "label": "Z", "x": 1.5, "y": 3.375 },
+                { "label": "\u2192", "x": 17, "y": 3.375 },
+                { "label": "|", "x": 18, "y": 3.375 },
+                {
+                    "label": "<i class='mss mss-Unicode-Alternate-3'></i>",
+                    "x": 3.5,
+                    "y": 4
+                },
+                { "label": "/", "x": 15, "y": 4 },
+                {
+                    "label": "<i class='kb kb-logo-windows-7'></i>",
+                    "x": 2.5,
+                    "y": 4.125
+                },
+                { "label": "\u2190", "x": 16, "y": 4.125 },
+                { "label": "\u232b", "x": 0.25, "y": 4.875 },
+                { "label": "Space", "x": -0.75, "y": 5.625 },
+                { "label": "Lower", "x": 1.5, "y": 4.125 },
+                { "label": "Home", "x": 2.5, "y": 4.375 },
+                { "label": "Ctrl", "x": 1.5, "y": 5.125 },
+                {
+                    "label": "<i class='mss mss-Unicode-Alternate-3'></i>",
+                    "x": 2.5,
+                    "y": 5.375
+                },
+                { "label": "BkSp", "x": -2.5, "y": 5.375 },
+                { "label": "\u2191", "x": -3.5, "y": 5.625 },
+                { "label": "\u21e7", "x": -2.5, "y": 6.375 },
+                { "label": "\u2193", "x": -3.5, "y": 6.625 },
+                {
+                    "label": "<i class='mss mss-Return-5'></i>",
+                    "x": -1.25,
+                    "y": 6.125
+                },
+                { "label": "Raise", "x": -0.25, "y": 6.875 }
+            ]
+        }
+    }
+}
