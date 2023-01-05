@@ -17,6 +17,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+// https://github.com/qmk/qmk_firmware/issues/19420#issuecomment-1372134274
+#define usb_lld_disconnect_bus(usbp) do {} while(0)
+
 #define MOUSEKEY_INTERVAL       20
 #define MOUSEKEY_DELAY          0
 #define MOUSEKEY_TIME_TO_MAX    60
